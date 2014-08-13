@@ -1,0 +1,17 @@
+<div class="hbox hbox-auto-xs hbox-auto-sm">
+    <!-- main header -->
+
+    <div class="bg-light lter b-b wrapper-md">
+        <h1 class="m-n font-thin h3 text-black">
+        Dashboard</h1><small class="text-muted">Welcome to angulr
+        application</small>
+
+    </div><!-- / main header -->
+
+    <div class="wrapper-md">
+        <button type="submit" class="btn btn-danger" ng-click="home.logout()">Sign out</button>
+        <div ng-repeat="skill in home.skills">
+            {{skill.name}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="app-header navbar" data-ng-include="'header.html'"></div>
+<!-- / navbar --><!-- menu -->
+
+<div class="app-aside hidden-xs {{app.settings.asideColor}}"
+data-ng-include=" 'aside.html'"></div><!-- / menu --><!-- content -->
+
+<div class="app-content">
+    <div></div>
+
+    <div class="app-content-body fade-in-up" ui-view></div>
+</div><!-- /content --><!-- footer -->
+
+<div class="app-footer wrapper b-t bg-light">
+    <span class="pull-right">{{app.version}}</span> &copy; 2014 Copyright.
+</div><!-- / footer -->
